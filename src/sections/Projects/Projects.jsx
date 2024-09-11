@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshburger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
+import turff from "../../assets/turff-image.png";
+// import freshburger from "../../assets/fresh-burger.png";
+import texttoimage from "../../assets/texttoimage.png";
 import fitlift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -11,22 +11,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={turff}
+          link={"https://github.com/OmkarrMain/Turf-Booking-System"}
+          h3="Turf Tribe"
+          p="Turf Booking Website"
+        />
+        {/* <ProjectCard
           src={viberr}
           link={"https://github.com/OmkarrMain/Turf-Booking-System"}
           h3="Viberr"
-          p="Streaming App"
-        />
-        <ProjectCard
-          src={freshburger}
-          link={"https://github.com/OmkarrMain/Turf-Booking-System"}
-          h3="Fresh Burger"
           p="Eating App"
-        />
+        /> */}
         <ProjectCard
-          src={hipsster}
-          link={"https://github.com/OmkarrMain/Turf-Booking-System"}
-          h3="Hipsster"
-          p="An Hipsster"
+          src={texttoimage}
+          link={"https://github.com/OmkarrMain/txt_to_image"}
+          h3="Text to Image Website"
+          p="Converts text to Image"
         />
         <ProjectCard
           src={fitlift}

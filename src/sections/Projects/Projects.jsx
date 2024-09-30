@@ -30,9 +30,9 @@ function Projects() {
         />
         <ProjectCard
           src={fitlift}
-          link={"https://github.com/OmkarrMain/Turf-Booking-System"}
+          link={"https://github.com/OmkarrMain/Fit_Lift"}
           h3="Fitlift"
-          p="An Fitlift App"
+          p="A Gym Guide "
         />
       </div>
     </section>
